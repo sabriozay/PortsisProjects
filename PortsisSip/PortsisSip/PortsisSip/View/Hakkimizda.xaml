@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PortsisSip.View.Hakkimizda">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Place new controls here -->
+            <Label TextColor="#ff3232" FontSize="50" FontFamily="Lucida Console" Text="HAKKIMIZDA" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
+            <Label FontSize="19" FontFamily="Lucida Console" Text="Profesyonel Halı Yıkama Hizmeti veren firmamızda tecrübeli ve deneyimli kadro, son sitem teknolojik halı yıkama makinaları, antibakteriyel, organik ve insan sağlığına zarar vermeyen şampuanlar kullanılmaktadır. Tüm bunlar dikkate alındığında siz değerli müşterilerimize sağlıklı ve kaliteli hizmeti vermek, çalışma prensiplerimizin başında gelmektedir. 30 Yıllık tecrübe ile sizlere hizmet veren firmamızda; müşteri memnuniyeti çok önemlidir. Halılarınız yıkama aşamasından, teslim aşamasına kadar toz alma, yıkama, durulama, sıkma, kontrol ve paketleme aşamalarından geçerek uzman ve dikkatli çalışanlarımızın kontrolünden sonra, teslimatları yapılmaktadır. Ucuza yıkatmayın, halınızı yıpratmayın." HorizontalOptions="Start" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

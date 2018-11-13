@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PortsisSip.View.Kayıt">
+    <ContentPage.Content>
+        <Grid>
+        <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+
+            </Grid.ColumnDefinitions>
+
+            <Entry x:Name="AdSoyad" Grid.Row="0" Grid.Column="0" Placeholder="Ad Soyad" FontSize="16"  />
+
+            <Entry x:Name="Telefon" Grid.Row="1" Grid.Column="0"  Placeholder="Telefon Numarası" FontSize="16" Keyboard="Numeric"/>
+
+            <Entry x:Name="Adres" Grid.Row="2" Grid.Column="0" Placeholder="Adress" FontSize="16" />
+
+            <Button Text="Kaydet"  Grid.Row="3" Grid.Column="0"  Clicked="Button_Clicked" Style="{StaticResource buttonStyle2}" /> 
+    </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PortsisSip.View.AnaSayfa" >
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />             
+
+           </Grid.ColumnDefinitions>
+
+            <Entry x:Name="Firma"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="Portsis"/>
+            <Button x:Name="SiparisVer" Text="Sipariş Ver" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Clicked="SiparisVer_Clicked" Style="{StaticResource buttonStyle2}"/>
+
+            <Button x:Name="fiyatlist" Text="Fiyat Listesi" Grid.Row="2" Grid.Column="1" Style="{StaticResource buttonStyle}" Clicked="fiyatlist_Clicked"/>
+               
+                <Button x:Name="Galeri" Text="Galeri" Grid.Row="2" Grid.Column="0" Clicked="Galeri_Clicked" Style="{StaticResource buttonStyle3}"/>
+                <Button x:Name="İletisim" Text="İletişim" Grid.Row="3" Grid.Column="0" Clicked="İletisim_Clicked" Style="{StaticResource buttonStyle4}"/>
+                <Button x:Name="hakkımızda" Text="Hakkımızda" Grid.Row="3" Grid.Column="1"  Style="{StaticResource buttonStyle5}" Clicked="hakkımızda_Clicked"/>
+
+
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
