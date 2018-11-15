@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "b150ca116fc0dc50edbf419817b9b2d1afdcd1a9"
+    "signature": "78fd75049876ecaa0d6b727c2d9d97581be0c6bc"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,6 +12,7 @@
           "Microsoft.Net.Http": "2.2.29",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "11.0.2",
+          "Plugin.Share": "7.1.1",
           "System.ServiceModel.Duplex": "4.5.3",
           "System.ServiceModel.Http": "4.5.3",
           "System.ServiceModel.NetTcp": "4.5.3",
@@ -57,6 +58,21 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "Plugin.Share/7.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Share.Abstractions.dll": {
+            "assemblyVersion": "7.1.1.0",
+            "fileVersion": "7.1.1.0"
+          },
+          "lib/netstandard1.0/Plugin.Share.dll": {
+            "assemblyVersion": "7.1.1.0",
+            "fileVersion": "7.1.1.0"
           }
         }
       },
@@ -265,6 +281,13 @@
       "sha512": "sha512-znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Plugin.Share/7.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zio6sygvl77VJ8wbiZTGQDduf8BBPmjGtl+ofzlIVjWmILjkKtGVRGqEZ3UAfcMNEI4nAIxOD48Pvy5p3iQMUA==",
+      "path": "plugin.share/7.1.1",
+      "hashPath": "plugin.share.7.1.1.nupkg.sha512"
     },
     "sqlite-net-pcl/1.5.231": {
       "type": "package",

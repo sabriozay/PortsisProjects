@@ -1,7 +1,10 @@
 FormsViewGroup
 Newtonsoft.Json
+Plugin.CurrentActivity
 Plugin.Messaging.Abstractions
 Plugin.Messaging
+Plugin.Share.Abstractions
+Plugin.Share
 PortsisSip
 SQLite-net
 SQLitePCLRaw.batteries_green
@@ -20,6 +23,7 @@ Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
 Xamarin.Android.Support.Core.UI
 Xamarin.Android.Support.Core.Utils
+Xamarin.Android.Support.CustomTabs
 Xamarin.Android.Support.Design
 Xamarin.Android.Support.Fragment
 Xamarin.Android.Support.Media.Compat
@@ -37,7 +41,3 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
 System.Reflection.Extensions
-Plugin.CurrentActivity
-Plugin.Share.Abstractions
-Plugin.Share
-Xamarin.Android.Support.CustomTabs

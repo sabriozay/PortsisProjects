@@ -65,6 +65,20 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Plugin.Share/7.1.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Plugin.Share.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Share.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Share.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Share.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -599,6 +613,42 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Plugin.Share/7.1.1": {
+      "sha512": "Zio6sygvl77VJ8wbiZTGQDduf8BBPmjGtl+ofzlIVjWmILjkKtGVRGqEZ3UAfcMNEI4nAIxOD48Pvy5p3iQMUA==",
+      "type": "package",
+      "path": "plugin.share/7.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.Share.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Share.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Share.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Share.dll",
+        "lib/MonoAndroid10/Plugin.Share.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Share.pdb",
+        "lib/MonoAndroid10/Plugin.Share.xml",
+        "lib/UAP10/Plugin.Share.Abstractions.dll",
+        "lib/UAP10/Plugin.Share.Abstractions.pdb",
+        "lib/UAP10/Plugin.Share.Abstractions.xml",
+        "lib/UAP10/Plugin.Share.XML",
+        "lib/UAP10/Plugin.Share.dll",
+        "lib/UAP10/Plugin.Share.pdb",
+        "lib/UAP10/Plugin.Share.pri",
+        "lib/Xamarin.iOS10/Plugin.Share.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Share.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Share.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Share.dll",
+        "lib/Xamarin.iOS10/Plugin.Share.xml",
+        "lib/netstandard1.0/Plugin.Share.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Share.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Share.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Share.deps.json",
+        "lib/netstandard1.0/Plugin.Share.dll",
+        "lib/netstandard1.0/Plugin.Share.pdb",
+        "lib/netstandard1.0/Plugin.Share.xml",
+        "plugin.share.7.1.1.nupkg.sha512",
+        "plugin.share.nuspec"
       ]
     },
     "sqlite-net-pcl/1.5.231": {
@@ -1217,6 +1267,7 @@
       "Microsoft.Net.Http >= 2.2.29",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 11.0.2",
+      "Plugin.Share >= 7.1.1",
       "System.ServiceModel.Duplex >= 4.5.3",
       "System.ServiceModel.Http >= 4.5.3",
       "System.ServiceModel.NetTcp >= 4.5.3",
@@ -1233,11 +1284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\PortsisSip\\PortsisSip\\PortsisSip\\PortsisSip.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip\\PortsisSip.csproj",
       "projectName": "PortsisSip",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\PortsisSip\\PortsisSip\\PortsisSip\\PortsisSip.csproj",
+      "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip\\PortsisSip.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\PortsisSip\\PortsisSip\\PortsisSip\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1280,6 +1331,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[11.0.2, )"
+          },
+          "Plugin.Share": {
+            "target": "Package",
+            "version": "[7.1.1, )"
           },
           "System.ServiceModel.Duplex": {
             "target": "Package",

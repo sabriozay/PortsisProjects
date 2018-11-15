@@ -3,11 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PortsisSip.View.Iletisim">
     <ContentPage.Content>
-        <StackLayout>
 
-            <Label TextColor="#ff3232" FontSize="50" FontFamily="Lucida Console" Text="İLETİŞİM" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
-            <Button x:Name="Ara" Text="Sipariş Ver" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Clicked="Ara_Clicked" Style="{StaticResource buttonStyle2}"/>
+        <Grid>
+            
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
 
-        </StackLayout>
+                </Grid.ColumnDefinitions>
+                <Label TextColor="#ff3232" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="50" FontFamily="Lucida Console" Text="İLETİŞİM" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
+
+            <Button x:Name="Fb"  Grid.Row="1" Grid.Column="0"  Clicked="Fb_Clicked" Style="{StaticResource buttonStyle2}">
+                <Button.Image>
+                    <OnPlatform >
+                        
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+            <Button x:Name="Ins"  Grid.Row="1" Grid.Column="1" Clicked="Ins_Clicked"  Style="{StaticResource buttonStyle2}"/>
+
+            <Button x:Name="Ara"  Grid.Row="2" Grid.Column="0"  Grid.ColumnSpan="2" Clicked="Ara_Clicked" Style="{StaticResource buttonStyle2}"/>
+            <Button x:Name="WebSitesi"  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Clicked="WebSitesi_Clicked" Style="{StaticResource buttonStyle2}"/>
+            <Button x:Name="AdresLink" Text="Sipariş Ver" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Clicked="AdresLink_Clicked" Style="{StaticResource buttonStyle2}"/>
+
+        </Grid>
+
     </ContentPage.Content>
 </ContentPage>

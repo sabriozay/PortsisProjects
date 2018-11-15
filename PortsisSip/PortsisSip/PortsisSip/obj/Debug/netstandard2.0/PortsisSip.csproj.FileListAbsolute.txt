@@ -11,6 +11,9 @@ C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2
 C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\PortsisSip.dll
 C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\PortsisSip.pdb
 C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\FiyatListesi.xaml.g.cs
+C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\Hakkimizda.xaml.g.cs
+C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\Iletisim.xaml.g.cs
+C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\PortsisSip.csprojAssemblyReference.cache
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\bin\Debug\netstandard2.0\PortsisSip.deps.json
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\bin\Debug\netstandard2.0\PortsisSip.dll
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\bin\Debug\netstandard2.0\PortsisSip.pdb
@@ -19,6 +22,8 @@ C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\ob
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\AnaSayfa.xaml.g.cs
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\FiyatListesi.xaml.g.cs
+C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\Hakkimizda.xaml.g.cs
+C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\Iletisim.xaml.g.cs
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\Kayıt.xaml.g.cs
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\PortsisSip.csproj.CoreCompileInputs.cache
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\PortsisSip.AssemblyInfoInputs.cache
@@ -26,6 +31,3 @@ C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\ob
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\PortsisSip.dll
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\PortsisSip.pdb
-C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\Hakkimizda.xaml.g.cs
-C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\View\Iletisim.xaml.g.cs
-C:\Users\PC\source\repos\PortsisSip\PortsisSip\PortsisSip\obj\Debug\netstandard2.0\PortsisSip.csprojAssemblyReference.cache
