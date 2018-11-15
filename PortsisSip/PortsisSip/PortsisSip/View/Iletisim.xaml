@@ -19,7 +19,7 @@
                 </Grid.ColumnDefinitions>
                 <Label TextColor="#ff3232" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="50" FontFamily="Lucida Console" Text="İLETİŞİM" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
 
-            <Button x:Name="Fb"  Grid.Row="1" Grid.Column="0"  Clicked="Fb_Clicked" Style="{StaticResource buttonStyle2}">
+            <Button x:Name="Fb"  Grid.Row="1" Grid.Column="0"  Clicked="Fb_Clicked" Style="{StaticResource buttonStyle}">
                 <Button.Image>
                     <OnPlatform >
                         
@@ -28,9 +28,9 @@
             </Button>
             <Button x:Name="Ins"  Grid.Row="1" Grid.Column="1" Clicked="Ins_Clicked"  Style="{StaticResource buttonStyle2}"/>
 
-            <Button x:Name="Ara"  Grid.Row="2" Grid.Column="0"  Grid.ColumnSpan="2" Clicked="Ara_Clicked" Style="{StaticResource buttonStyle2}"/>
-            <Button x:Name="WebSitesi"  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Clicked="WebSitesi_Clicked" Style="{StaticResource buttonStyle2}"/>
-            <Button x:Name="AdresLink" Text="Sipariş Ver" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Clicked="AdresLink_Clicked" Style="{StaticResource buttonStyle2}"/>
+            <Button x:Name="Ara"  Grid.Row="2" Grid.Column="0"  Grid.ColumnSpan="2" Clicked="Ara_Clicked" Style="{StaticResource buttonStyle3}"/>
+            <Button x:Name="WebSitesi"  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Clicked="WebSitesi_Clicked" Style="{StaticResource buttonStyle4}"/>
+            <Button x:Name="AdresLink" Text="Sipariş Ver" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Clicked="AdresLink_Clicked" Style="{StaticResource buttonStyle5}"/>
 
         </Grid>
 

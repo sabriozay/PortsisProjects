@@ -6406,20 +6406,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\Portsis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip.iOS\\PortsisSip.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Portsis\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip.iOS\\PortsisSip.iOS.csproj",
       "projectName": "PortsisSip.iOS",
-      "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip.iOS\\PortsisSip.iOS.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Portsis\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip.iOS\\PortsisSip.iOS.csproj",
+      "packagesPath": "C:\\Users\\Portsis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Portsis\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Portsis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6432,8 +6432,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\PC\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip\\PortsisSip.csproj": {
-              "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip\\PortsisSip.csproj"
+            "C:\\Users\\Portsis\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip\\PortsisSip.csproj": {
+              "projectPath": "C:\\Users\\Portsis\\Documents\\GitHub\\PortsisProjects\\PortsisSip\\PortsisSip\\PortsisSip\\PortsisSip.csproj"
             }
           }
         }
