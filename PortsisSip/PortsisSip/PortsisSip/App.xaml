@@ -8,16 +8,17 @@
                 <Setter Property="FontSize" Value="25"/>          
 
             </Style>
+           
             <Style x:Key="buttonStyle" TargetType="Button">
-               
+
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
                 <Setter Property="BorderColor" Value="Transparent" />
-                <Setter Property="BorderRadius" Value="1" />
-                <Setter Property="BorderWidth" Value="3" />
-                <Setter Property="HeightRequest" Value="140" />
-                <Setter Property="WidthRequest" Value="340" />
-                <Setter Property="BackgroundColor" Value="#996699" />
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="HeightRequest" Value="200" />
+                <Setter Property="WidthRequest" Value="300" />
+                <Setter Property="BackgroundColor" Value="Orange" />
                 <Setter Property="TextColor" Value="White" />
             </Style>
             <Style x:Key="buttonStyle2" TargetType="Button">
@@ -25,11 +26,11 @@
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
                 <Setter Property="BorderColor" Value="Transparent" />
-                <Setter Property="BorderRadius" Value="1" />
-                <Setter Property="BorderWidth" Value="3" />
-                <Setter Property="HeightRequest" Value="100" />
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="HeightRequest" Value="200" />
                 <Setter Property="WidthRequest" Value="300" />
-                <Setter Property="BackgroundColor" Value="#0099FF" />
+                <Setter Property="BackgroundColor" Value="Orange" />
                 <Setter Property="TextColor" Value="White" />
             </Style>
             <Style x:Key="buttonStyle3" TargetType="Button">
@@ -37,9 +38,9 @@
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
                 <Setter Property="BorderColor" Value="Transparent" />
-                <Setter Property="BorderRadius" Value="1" />
-                <Setter Property="BorderWidth" Value="3" />
-                <Setter Property="HeightRequest" Value="100" />
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="HeightRequest" Value="200" />
                 <Setter Property="WidthRequest" Value="300" />
                 <Setter Property="BackgroundColor" Value="Orange" />
                 <Setter Property="TextColor" Value="White" />
@@ -49,22 +50,23 @@
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
                 <Setter Property="BorderColor" Value="Transparent" />
-                <Setter Property="BorderRadius" Value="1" />
-                <Setter Property="BorderWidth" Value="3" />
-                <Setter Property="HeightRequest" Value="100" />
+
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="HeightRequest" Value="200" />
                 <Setter Property="WidthRequest" Value="300" />
-                <Setter Property="BackgroundColor" Value="Red" />
+                <Setter Property="BackgroundColor" Value="Orange" />
                 <Setter Property="TextColor" Value="White" />
             </Style>
             <Style x:Key="buttonStyle5" TargetType="Button">
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
                 <Setter Property="BorderColor" Value="Transparent" />
-                <Setter Property="BorderRadius" Value="1" />
-                <Setter Property="BorderWidth" Value="3" />
-                <Setter Property="HeightRequest" Value="100" />
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="HeightRequest" Value="200" />
                 <Setter Property="WidthRequest" Value="300" />
-                <Setter Property="BackgroundColor"  Value="#00CC00" />
+                <Setter Property="BackgroundColor" Value="Orange" />
                 <Setter Property="TextColor" Value="White" /> 
 
 

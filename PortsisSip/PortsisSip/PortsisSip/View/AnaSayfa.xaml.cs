@@ -13,6 +13,7 @@ using System.Collections.Specialized;
 using System.Net.Http;
 using Newtonsoft.Json;
 using PortsisSip.Service;
+using Plugin.Share;
 
 namespace PortsisSip.View
 {
@@ -71,6 +72,11 @@ namespace PortsisSip.View
         private async void hakkımızda_Clicked(object sender, EventArgs e)
         {
           await  Navigation.PushModalAsync(new View.Hakkimizda());
+        }
+
+        private void Youtube_Clicked(object sender, EventArgs e)
+        {
+            CrossShare.Current.OpenBrowser("https://www.youtube.com/watch?v=8tpgyrR5RYI&feature=youtu.be");
         }
     }
 }

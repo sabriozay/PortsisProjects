@@ -19,7 +19,7 @@
     <PackageReference Include="System.ServiceModel.NetTcp" Version="4.5.3" />
     <PackageReference Include="System.ServiceModel.Security" Version="4.5.3" />
     <PackageReference Include="Xam.Plugins.Messaging" Version="5.2.0" />
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,5 +46,29 @@
 
   <ItemGroup>
     <Folder Include="Connected Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\AnaSayfa.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\FiyatListesi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\Hakkimizda.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\Iletisim.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\Kayıt.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 </Project>

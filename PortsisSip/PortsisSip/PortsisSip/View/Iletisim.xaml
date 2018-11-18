@@ -1,36 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PortsisSip.View.Iletisim">
+             x:Class="PortsisSip.View.Iletisim" BackgroundImage="BACK.png">
     <ContentPage.Content>
 
-        <Grid>
+        <Grid RowSpacing="10"  ColumnSpacing="10">
             
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="100"/>
-                    <RowDefinition Height="100"/>
-                    <RowDefinition Height="100"/>
-                    <RowDefinition Height="100"/>
-                </Grid.RowDefinitions>
+                    <RowDefinition />
+                <RowDefinition />
+                <RowDefinition   />
+                <RowDefinition  />
+                <RowDefinition />
+            </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition />
                     <ColumnDefinition />
 
                 </Grid.ColumnDefinitions>
                 <Label TextColor="#ff3232" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="50" FontFamily="Lucida Console" Text="İLETİŞİM" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
+            <Button x:Name="Fb" Grid.Row="1" Grid.Column="0" Clicked="Fb_Clicked" Style="{StaticResource buttonStyle}" Image="Face.png" />
+            <Button x:Name="Ins" Grid.Row="1" Grid.Column="1" Clicked="Ins_Clicked" Style="{StaticResource buttonStyle2}" Image="Ins.png" />
+            <Button x:Name="Ara" Grid.Row="2" Grid.Column="0" Clicked="Ara_Clicked" Style="{StaticResource buttonStyle3}" Image="Ara.png"/>
+            <Button x:Name="WebSitesi" Grid.Row="2" Grid.Column="1" Clicked="WebSitesi_Clicked" Style="{StaticResource buttonStyle4}" Image="Web.png"/>
+            <Button x:Name="AdresLink" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Clicked="AdresLink_Clicked" Style="{StaticResource buttonStyle5}" Image="Map.png"/>
 
-            <Button x:Name="Fb"  Grid.Row="1" Grid.Column="0"  Clicked="Fb_Clicked" Style="{StaticResource buttonStyle}">
-                <Button.Image>
-                    <OnPlatform >
-                        
-                    </OnPlatform>
-                </Button.Image>
-            </Button>
-            <Button x:Name="Ins"  Grid.Row="1" Grid.Column="1" Clicked="Ins_Clicked"  Style="{StaticResource buttonStyle2}"/>
-
-            <Button x:Name="Ara"  Grid.Row="2" Grid.Column="0"  Grid.ColumnSpan="2" Clicked="Ara_Clicked" Style="{StaticResource buttonStyle3}"/>
-            <Button x:Name="WebSitesi"  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Clicked="WebSitesi_Clicked" Style="{StaticResource buttonStyle4}"/>
-            <Button x:Name="AdresLink" Text="Sipariş Ver" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Clicked="AdresLink_Clicked" Style="{StaticResource buttonStyle5}"/>
 
         </Grid>
 

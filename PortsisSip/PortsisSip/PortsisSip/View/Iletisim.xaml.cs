@@ -17,7 +17,7 @@ namespace PortsisSip.View
 		{
 			InitializeComponent ();
       
-           
+
         }
 
         private void Ara_Clicked(object sender, EventArgs e)

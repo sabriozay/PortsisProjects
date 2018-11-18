@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PortsisSip.View.AnaSayfa" >
-    <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="150"/>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="100"/>
+             x:Class="PortsisSip.View.AnaSayfa" BackgroundImage="BACK.png">
+    <ContentPage.Content >
+        <Grid RowSpacing="10"  ColumnSpacing="10">
+            <Grid.RowDefinitions  >
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition   />
+                <RowDefinition />
+                <RowDefinition  />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
@@ -16,14 +17,16 @@
 
            </Grid.ColumnDefinitions>
 
-            <Entry x:Name="Firma"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="Portsis"/>
-            <Button x:Name="SiparisVer" Text="Sipariş Ver" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Clicked="SiparisVer_Clicked" Style="{StaticResource buttonStyle2}"/>
+            <Image x:Name="Firma"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Source="LOGO.png" WidthRequest="300" HeightRequest="150" />
+            <Button x:Name="SiparisVer" Grid.Row="1" Grid.Column="0" Clicked="SiparisVer_Clicked" Style="{StaticResource buttonStyle2}" Image="Sip.png"/>
+            <Button x:Name="Youtube" Grid.Row="1" Grid.Column="1"  Clicked="Youtube_Clicked" Style="{StaticResource buttonStyle2}" Image="play.png"/>
 
-            <Button x:Name="fiyatlist" Text="Fiyat Listesi" Grid.Row="2" Grid.Column="1" Style="{StaticResource buttonStyle}" Clicked="fiyatlist_Clicked"/>
-               
-                <Button x:Name="Galeri" Text="Galeri" Grid.Row="2" Grid.Column="0" Clicked="Galeri_Clicked" Style="{StaticResource buttonStyle3}"/>
-                <Button x:Name="İletisim" Text="İletişim" Grid.Row="3" Grid.Column="0" Clicked="İletisim_Clicked" Style="{StaticResource buttonStyle4}"/>
-                <Button x:Name="hakkımızda" Text="Hakkımızda" Grid.Row="3" Grid.Column="1"  Style="{StaticResource buttonStyle5}" Clicked="hakkımızda_Clicked"/>
+
+            <Button x:Name="fiyatlist"  Grid.Row="2" Grid.Column="1" Style="{StaticResource buttonStyle}" Clicked="fiyatlist_Clicked" Image="List.png"/>
+
+            <Button x:Name="Galeri" Grid.Row="2" Grid.Column="0" Clicked="Galeri_Clicked" Style="{StaticResource buttonStyle3}" Image="gal.png"/>
+            <Button x:Name="İletisim"  Grid.Row="3" Grid.Column="0" Clicked="İletisim_Clicked" Style="{StaticResource buttonStyle4}" Image="Ara.png"/>
+            <Button x:Name="hakkımızda" Grid.Row="3" Grid.Column="1"  Style="{StaticResource buttonStyle5}" Clicked="hakkımızda_Clicked" Image="Hak.png"/>
 
 
 

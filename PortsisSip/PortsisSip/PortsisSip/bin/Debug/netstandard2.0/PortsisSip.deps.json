@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "78fd75049876ecaa0d6b727c2d9d97581be0c6bc"
+    "signature": "62723846ecfafb32cf5bcaf2fe0884d6f5632e1b"
   },
   "compilationOptions": {},
   "targets": {
@@ -18,7 +18,7 @@
           "System.ServiceModel.NetTcp": "4.5.3",
           "System.ServiceModel.Security": "4.5.3",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Forms": "3.3.0.967583",
+          "Xamarin.Forms": "3.4.0.1008975",
           "sqlite-net-pcl": "1.5.231"
         },
         "runtime": {
@@ -216,7 +216,7 @@
           }
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -373,12 +373,12 @@
       "path": "xam.plugins.messaging/5.2.0",
       "hashPath": "xam.plugins.messaging.5.2.0.nupkg.sha512"
     },
-    "Xamarin.Forms/3.3.0.967583": {
+    "Xamarin.Forms/3.4.0.1008975": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
-      "path": "xamarin.forms/3.3.0.967583",
-      "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
+      "sha512": "sha512-036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "path": "xamarin.forms/3.4.0.1008975",
+      "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
     }
   }
 }
