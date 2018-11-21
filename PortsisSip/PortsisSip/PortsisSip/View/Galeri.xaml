@@ -2,11 +2,30 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PortsisSip.View.Galeri">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+    <ContentPage.Content >
+        <Grid RowSpacing="10"  ColumnSpacing="10">
+            <Grid.RowDefinitions  >
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+
+            </Grid.ColumnDefinitions>
+
+            <Image Source="hali2.jpg" Grid.Row="0" Grid.Column="0"  Style="{StaticResource imageStyle}"/>
+            <Image Source="hali2.jpg" Grid.Row="0" Grid.Column="1"  Style="{StaticResource imageStyle}"/>
+            <Image Source="hali2.jpg" Grid.Row="1" Grid.Column="0"  Style="{StaticResource imageStyle}"/>
+            <Image Source="hali2.jpg" Grid.Row="1" Grid.Column="1"  Style="{StaticResource imageStyle}"/>
+
+
+
+
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

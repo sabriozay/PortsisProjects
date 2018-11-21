@@ -8,7 +8,17 @@
                 <Setter Property="FontSize" Value="25"/>          
 
             </Style>
-           
+
+            <Style x:Key="ımageStyle" TargetType="Image">
+
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" /> >
+                <Setter Property="BorderRadius" Value="2" />
+                <Setter Property="BorderWidth" Value="2" />
+                <Setter Property="HeightRequest" Value="200" />
+                <Setter Property="WidthRequest" Value="300" />
+            </Style>
+
             <Style x:Key="buttonStyle" TargetType="Button">
 
                 <Setter Property="HorizontalOptions" Value="Center" />
