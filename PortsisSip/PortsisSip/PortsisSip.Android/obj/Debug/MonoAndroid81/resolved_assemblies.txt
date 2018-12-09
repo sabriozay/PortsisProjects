@@ -1,4 +1,4 @@
-C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Debug\MonoAndroid81\android\assets\PortsisSip.Android.dll
+C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Debug\MonoAndroid81\android\assets\ReyelHaliYikama.dll
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Debug\MonoAndroid81\android\assets\FormsViewGroup.dll
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll

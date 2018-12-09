@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsisSip.Android", "Ports
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsisSip.iOS", "PortsisSip\PortsisSip.iOS\PortsisSip.iOS.csproj", "{1235C430-E6D3-4A3E-9DD6-E110D34AA489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsisSip", "PortsisSip\PortsisSip\PortsisSip.csproj", "{A1A42F7D-A961-4F99-A82F-A1014C88DBFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortsisSip", "PortsisSip\PortsisSip\PortsisSip.csproj", "{A1A42F7D-A961-4F99-A82F-A1014C88DBFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

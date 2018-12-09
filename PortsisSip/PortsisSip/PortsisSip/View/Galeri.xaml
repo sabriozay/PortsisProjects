@@ -4,28 +4,8 @@
              x:Class="PortsisSip.View.Galeri">
 
     <ContentPage.Content >
-        <Grid RowSpacing="10"  ColumnSpacing="10">
-            <Grid.RowDefinitions  >
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition />
-                <ColumnDefinition />
-
-            </Grid.ColumnDefinitions>
-
-            <Image Source="hali2.jpg" Grid.Row="0" Grid.Column="0"  Style="{StaticResource imageStyle}"/>
-            <Image Source="hali2.jpg" Grid.Row="0" Grid.Column="1"  Style="{StaticResource imageStyle}"/>
-            <Image Source="hali2.jpg" Grid.Row="1" Grid.Column="0"  Style="{StaticResource imageStyle}"/>
-            <Image Source="hali2.jpg" Grid.Row="1" Grid.Column="1"  Style="{StaticResource imageStyle}"/>
-
-
-
-
-
-        </Grid>
+        <WebView Source="http://www.reyelhaliyikama.com/foto-galeri">
+            
+        </WebView>
     </ContentPage.Content>
 </ContentPage>

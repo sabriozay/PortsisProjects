@@ -105,8 +105,8 @@ public class MonoPackageManager {
 
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
-		/* We need to ensure that "PortsisSip.Android.dll" comes first in this list. */
-		"PortsisSip.Android.dll",
+		/* We need to ensure that "ReyelHaliYikama.dll" comes first in this list. */
+		"ReyelHaliYikama.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",

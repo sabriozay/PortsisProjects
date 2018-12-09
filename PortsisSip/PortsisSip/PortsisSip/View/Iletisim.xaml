@@ -23,8 +23,8 @@
             <Button x:Name="Ins" Grid.Row="1" Grid.Column="1" Clicked="Ins_Clicked" Style="{StaticResource buttonStyle2}" Image="Ins.png" />
             <Button x:Name="Ara" Grid.Row="2" Grid.Column="0" Clicked="Ara_Clicked" Style="{StaticResource buttonStyle3}" Image="Ara.png"/>
             <Button x:Name="WebSitesi" Grid.Row="2" Grid.Column="1" Clicked="WebSitesi_Clicked" Style="{StaticResource buttonStyle4}" Image="Web.png"/>
-            <Button x:Name="AdresLink" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Clicked="AdresLink_Clicked" Style="{StaticResource buttonStyle5}" Image="Map.png"/>
-
+            <Button x:Name="AdresLink" Grid.Row="3" Grid.Column="0"  Clicked="AdresLink_Clicked" Style="{StaticResource buttonStyle5}" Image="Map.png"/>
+            <Button x:Name="Wp" Grid.Row="3" Grid.Column="1" Clicked="Wp_Clicked" Style="{StaticResource buttonStyle2}" Image="WP.png" />
 
         </Grid>
 

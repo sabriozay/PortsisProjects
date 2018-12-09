@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.PortsisSip">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="3.1" package="com.companyname.PortsisSip" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="27" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="PortsisSip.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="PortsisSip" android:theme="@style/MainTheme" android:name="md5994ac5713eb79a81465fa7a96eea24e5.MainActivity">
+  <application android:label="ReyelHaliYikama" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/ic_launcher" android:label="PortsisSip" android:theme="@style/MainTheme" android:name="md50e5a75a92cbc7d485c4b676118786115.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
@@ -22,4 +22,5 @@
       </intent-filter>
     </receiver>
   </application>
+  <application android:name="ReyelHaliYikama" />
 </manifest>

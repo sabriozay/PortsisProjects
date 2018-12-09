@@ -12,7 +12,7 @@ namespace PortsisSip
         {
             InitializeComponent();
 
-            MainPage = new Galeri();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

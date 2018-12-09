@@ -37,7 +37,7 @@ namespace PortsisSip.View
             mst.AdSoyad = veriler.AdSoyad;
             mst.Adres = veriler.Adres;
             mst.Telefon = veriler.Telefon;
-            mst.Kod = "durupak";
+            mst.Kod = "reyelhali";
        
         }
 
@@ -46,16 +46,16 @@ namespace PortsisSip.View
         {
           var cevap=  await DisplayAlert("Siparis ver","Siparis vermek istiyormusunuz","evet","hayır");
             if (cevap)
-            {
-                var gönder = await mser.GetMaintOrderListRoot(mst);
+            {             
+                mser.GetMaintOrderListRoot(mst);                
 
             }
         }
 
         
-        private void Galeri_Clicked(object sender, EventArgs e)
+        private async void Galeri_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new View.Galeri());
         }
 
         private async void İletisim_Clicked(object sender, EventArgs e)
