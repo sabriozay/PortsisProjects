@@ -75,4 +75,3 @@ C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.iO
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.iOS\obj\iPhoneSimulator\Debug\PortsisSip.iOS.csproj.CopyComplete
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.iOS\obj\iPhoneSimulator\Debug\PortsisSip.iOS.exe
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.iOS\obj\iPhoneSimulator\Debug\PortsisSip.iOS.pdb
-C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.iOS\bin\iPhoneSimulator\Debug\PortsisSip.dll.mdb

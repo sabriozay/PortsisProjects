@@ -12,7 +12,7 @@ namespace PortsisSip
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new AnaSayfa();
         }
 
         protected override void OnStart()

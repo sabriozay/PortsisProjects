@@ -6,7 +6,7 @@ namespace PortsisSip.Model
 {
    public class Orders
     {
-        
+        public static int mode;
         public String Order { get; set; }
         public string Fiyat { get; set; }
         public String Birim { get; set; }

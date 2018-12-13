@@ -1,27 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PortsisSip.View.Kayıt" BackgroundImage="BACK.png">
+             x:Class="PortsisSip.View.Kayıt" BackgroundColor="#E63262">
     <ContentPage.Content>
         <Grid>
         <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="50"/>
+                <RowDefinition  Height="6*" />
+                <RowDefinition   Height="2*"/>
+                <RowDefinition   Height="2*"/>
+                <RowDefinition   Height="2*"/>
+                <RowDefinition  Height="2*"/>
+                <RowDefinition  Height="4*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
 
             </Grid.ColumnDefinitions>
 
-            <Entry x:Name="AdSoyad" Grid.Row="0" Grid.Column="0" Placeholder="Ad Soyad" FontSize="16"  />
+            <Image x:Name="Firma"  Grid.Row="0" Grid.Column="0"  HorizontalOptions="Center" Source="KaydolLogo.png" WidthRequest="300" HeightRequest="150" />
+            <Entry x:Name="AdSoyad"  TextColor="White"  Grid.Row="1" Grid.Column="0" Placeholder="Ad Soyad" FontSize="26" PlaceholderColor="White"  />
 
-            <Entry x:Name="Telefon" Grid.Row="1" Grid.Column="0"  Placeholder="Telefon Numarası" FontSize="16" Keyboard="Numeric"/>
+            <Entry x:Name="Telefon" TextColor="White" Grid.Row="2" Grid.Column="0"  Placeholder="Telefon Numarası" FontSize="26" Keyboard="Numeric" PlaceholderColor="White"/>
 
-            <Entry x:Name="Adres" Grid.Row="2" Grid.Column="0" Placeholder="Adress" FontSize="16" />
+            <Entry x:Name="Adres" TextColor="White" Grid.Row="3" Grid.Column="0" Placeholder="Adress" FontSize="26" PlaceholderColor="White" />
 
-            <Button Text="Kaydet"  Grid.Row="3" Grid.Column="0"  Clicked="Button_Clicked" Style="{StaticResource buttonStyle2}" /> 
-    </Grid>
+            <Button   Grid.Row="4" Grid.Column="0"  Clicked="Button_Clicked" Image="kaydolButonu.png" BackgroundColor="Transparent"/>
+           
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

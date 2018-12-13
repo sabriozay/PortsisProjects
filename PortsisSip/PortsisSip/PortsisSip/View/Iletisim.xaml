@@ -7,24 +7,32 @@
         <Grid RowSpacing="10"  ColumnSpacing="10">
             
                 <Grid.RowDefinitions>
-                    <RowDefinition />
-                <RowDefinition />
-                <RowDefinition   />
-                <RowDefinition  />
-                <RowDefinition />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="10*"  />
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-
-                </Grid.ColumnDefinitions>
-                <Label TextColor="#ff3232" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="50" FontFamily="Lucida Console" Text="İLETİŞİM" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
-            <Button x:Name="Fb" Grid.Row="1" Grid.Column="0" Clicked="Fb_Clicked" Style="{StaticResource buttonStyle}" Image="Face.png" />
-            <Button x:Name="Ins" Grid.Row="1" Grid.Column="1" Clicked="Ins_Clicked" Style="{StaticResource buttonStyle2}" Image="Ins.png" />
-            <Button x:Name="Ara" Grid.Row="2" Grid.Column="0" Clicked="Ara_Clicked" Style="{StaticResource buttonStyle3}" Image="Ara.png"/>
-            <Button x:Name="WebSitesi" Grid.Row="2" Grid.Column="1" Clicked="WebSitesi_Clicked" Style="{StaticResource buttonStyle4}" Image="Web.png"/>
-            <Button x:Name="AdresLink" Grid.Row="3" Grid.Column="0"  Clicked="AdresLink_Clicked" Style="{StaticResource buttonStyle5}" Image="Map.png"/>
-            <Button x:Name="Wp" Grid.Row="3" Grid.Column="1" Clicked="Wp_Clicked" Style="{StaticResource buttonStyle2}" Image="WP.png" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Label TextColor="#3C303A" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" FontSize="20" FontFamily="Lucida Console" Text="İLETİŞİM" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
+            <Button x:Name="Fb" Grid.Row="2" Grid.Column="1" Clicked="Fb_Clicked" Style="{StaticResource buttonStyle2}" Image="facebook.png" />
+            <Button x:Name="Ins" Grid.Row="2" Grid.Column="2" Clicked="Ins_Clicked" Style="{StaticResource buttonStyle2}" Image="instagram.png" />
+            <Button x:Name="Wp" Grid.Row="3" Grid.Column="1" Clicked="Wp_Clicked" Style="{StaticResource buttonStyle2}" Image="whatsapp.png" />
+            <Button x:Name="youtube" Grid.Row="3" Grid.Column="2" Clicked="youtube_Clicked" Style="{StaticResource buttonStyle2}" Image="youtube.png" />
+            <Button x:Name="twiter" Grid.Row="4" Grid.Column="1" Clicked="twiter_Clicked" Style="{StaticResource buttonStyle2}" Image="twitter.png"/>
+            <Button x:Name="WebSitesi" Grid.Row="4" Grid.Column="2" Clicked="WebSitesi_Clicked" Style="{StaticResource buttonStyle2}" Image="sitemiz.png"/>
+            <Button x:Name="AdresLink" Grid.Row="5" Grid.Column="1"  Clicked="AdresLink_Clicked" Style="{StaticResource buttonStyle2}" Image="yoltarifi.png"/>
+            <Button x:Name="Ara" Grid.Row="5" Grid.Column="2" Clicked="Ara_Clicked" Style="{StaticResource buttonStyle2}" Image="Arama.png"/>
+        
+         
+            
 
         </Grid>
 

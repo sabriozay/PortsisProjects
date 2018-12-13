@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PortsisSip.View.Hizmetler">
+    <ContentPage.Content >
+      
+
+                        <Grid>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+               
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="6*" />
+            </Grid.ColumnDefinitions>
+            <Label TextColor="#3C303A" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" FontSize="20" FontFamily="Lucida Console" Text="HİZMETLERİMİZ" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
+            <Image Grid.Row="2" Grid.Column="0" Source="hali.png"/>
+            <Label TextColor="#3C303A" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" FontSize="25" FontFamily="HelveticaNeue-Light" Text="Halı Yıkama" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+            <Image Grid.Row="3" Grid.Column="0" Source="yorgan.png"/>
+            <Label TextColor="#3C303A" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" FontSize="25" FontFamily="HelveticaNeue-Light" Text="Yorgan Yıkama" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+            <Image Grid.Row="4" Grid.Column="0" Source="battaniye.png"/>
+            <Label TextColor="#3C303A" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" FontSize="25" FontFamily="HelveticaNeue-Light" Text="Battaniye Yıkama" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+            <Image Grid.Row="5" Grid.Column="0" Source="perde.png"/>
+            <Label TextColor="#3C303A" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" FontSize="25" FontFamily="HelveticaNeue-Light" Text="Perde Yıkama" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+            <Image Grid.Row="6" Grid.Column="0" Source="koltuk.png"/>
+            <Label TextColor="#3C303A" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" FontSize="25" FontFamily="HelveticaNeue-Light" Text="Koltuk Yıkama" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+            <Image Grid.Row="7" Grid.Column="0" Source="yatak.png"/>
+            <Label TextColor="#3C303A" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" FontSize="25" FontFamily="HelveticaNeue-Light" Text="Yatak Yıkama" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+            <Image Grid.Row="8" Grid.Column="0" Source="yerinde.png"/>
+            <Label TextColor="#3C303A" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="3" FontSize="25" FontFamily="HelveticaNeue-Light" Text="Yerinde Yıkama" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

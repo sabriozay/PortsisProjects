@@ -33,23 +33,40 @@ namespace PortsisSip.View
             var db = new SQLiteConnection(_dbpath);
             db.CreateTable<Müsteri>();
             var veriler = db.Table<Müsteri>().FirstOrDefault(x => x.Id == 1);
-            InitializeComponent();
-            mst.AdSoyad = veriler.AdSoyad;
+            if (veriler!=null)
+            {
+                Orders.mode = 1;
+   mst.AdSoyad = veriler.AdSoyad;
             mst.Adres = veriler.Adres;
             mst.Telefon = veriler.Telefon;
             mst.Kod = "reyelhali";
+            }
+            InitializeComponent();
+         
        
         }
 
    
         private async void SiparisVer_Clicked(object sender, EventArgs e)
         {
-          var cevap=  await DisplayAlert("Siparis ver","Siparis vermek istiyormusunuz","evet","hayır");
+            if (Orders.mode==1)
+            {
+  var cevap=  await DisplayAlert("Siparis ver","Siparis vermek istiyormusunuz","evet","hayır");
             if (cevap)
             {             
                 mser.GetMaintOrderListRoot(mst);                
 
             }
+            }
+            else
+            {
+                var cevap = await DisplayAlert("Kayıtlı değilsiniz", "Kayıt olmak istermisiz", "evet", "hayır");
+                if (cevap)
+                {
+                  await  Navigation.PushModalAsync(new View.Kayıt());
+                }
+            }
+        
         }
 
         
@@ -78,5 +95,17 @@ namespace PortsisSip.View
         {
             CrossShare.Current.OpenBrowser("https://www.youtube.com/watch?v=8tpgyrR5RYI&feature=youtu.be");
         }
+
+        private async void Servis_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new View.Hizmetler());
+        }
+
+        private void Yorumlar_Clicked(object sender, EventArgs e)
+        {
+            CrossShare.Current.OpenBrowser("https://play.google.com/store/apps/details?id=com.companyname.PortsisSip");
+        }
+
+      
     }
 }

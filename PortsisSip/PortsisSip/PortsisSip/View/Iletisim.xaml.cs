@@ -53,5 +53,15 @@ namespace PortsisSip.View
         {
             CrossShare.Current.OpenBrowser("https://api.whatsapp.com/send?phone=905334711916");
         }
+
+        private void youtube_Clicked(object sender, EventArgs e)
+        {
+            CrossShare.Current.OpenBrowser("https://www.youtube.com/watch?v=8tpgyrR5RYI&feature=youtu.be");
+        }
+
+        private void twiter_Clicked(object sender, EventArgs e)
+        {
+            CrossShare.Current.OpenBrowser("https://twitter.com/reyel_hali");
+        }
     }
 }

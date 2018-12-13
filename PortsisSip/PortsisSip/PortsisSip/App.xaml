@@ -14,7 +14,7 @@
             <Style x:Key="buttonStyle" TargetType="Button">
 
                 <Setter Property="HorizontalOptions" Value="Center" />
-                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions" Value="EndAndExpand" />
                 <Setter Property="BorderColor" Value="Transparent" />
                 <Setter Property="BorderRadius" Value="0" />
                 <Setter Property="BorderWidth" Value="0" />
@@ -22,17 +22,16 @@
                 <Setter Property="WidthRequest" Value="300" />
                 <Setter Property="BackgroundColor" Value="Orange" />
                 <Setter Property="TextColor" Value="White" />
+                
             </Style>
             <Style x:Key="buttonStyle2" TargetType="Button">
                 
-                <Setter Property="HorizontalOptions" Value="Center" />
-                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
                 <Setter Property="BorderColor" Value="Transparent" />
                 <Setter Property="BorderRadius" Value="0" />
-                <Setter Property="BorderWidth" Value="0" />
-                <Setter Property="HeightRequest" Value="200" />
-                <Setter Property="WidthRequest" Value="300" />
-                <Setter Property="BackgroundColor" Value="Orange" />
+                <Setter Property="BorderWidth" Value="0" />          
+                <Setter Property="BackgroundColor" Value="Transparent" />
                 <Setter Property="TextColor" Value="White" />
             </Style>
             <Style x:Key="buttonStyle3" TargetType="Button">

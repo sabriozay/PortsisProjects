@@ -3,31 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PortsisSip.View.AnaSayfa" BackgroundImage="BACK.png">
     <ContentPage.Content >
-        <Grid RowSpacing="10"  ColumnSpacing="10">
+        <Grid  HorizontalOptions="FillAndExpand">
             <Grid.RowDefinitions  >
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition   />
-                <RowDefinition />
-                <RowDefinition  />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="5*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*"  />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition />
-                <ColumnDefinition />             
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="1*" />
 
-           </Grid.ColumnDefinitions>
+            </Grid.ColumnDefinitions>
 
-            <Image x:Name="Firma"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Source="LOGO.png" WidthRequest="300" HeightRequest="150" />
-            <Button x:Name="SiparisVer" Grid.Row="1" Grid.Column="0" Clicked="SiparisVer_Clicked" Style="{StaticResource buttonStyle2}" Image="Sip.png"/>
-            <Button x:Name="Youtube" Grid.Row="1" Grid.Column="1"  Clicked="Youtube_Clicked" Style="{StaticResource buttonStyle2}" Image="play.png"/>
-
-
-            <Button x:Name="fiyatlist"  Grid.Row="2" Grid.Column="1" Style="{StaticResource buttonStyle}" Clicked="fiyatlist_Clicked" Image="List.png"/>
-
-            <Button x:Name="Galeri" Grid.Row="2" Grid.Column="0" Clicked="Galeri_Clicked" Style="{StaticResource buttonStyle3}" Image="gal.png"/>
-            <Button x:Name="İletisim"  Grid.Row="3" Grid.Column="0" Clicked="İletisim_Clicked" Style="{StaticResource buttonStyle4}" Image="Ara.png"/>
-            <Button x:Name="hakkımızda" Grid.Row="3" Grid.Column="1"  Style="{StaticResource buttonStyle5}" Clicked="hakkımızda_Clicked" Image="Hak.png"/>
-
+            <Image x:Name="Firma"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" Source="AnasayfaLogo.png" WidthRequest="300" HeightRequest="150" />
+           
+            <Button x:Name="SiparisVer" Grid.Row="2" Grid.Column="1" Clicked="SiparisVer_Clicked" Style="{StaticResource buttonStyle2}" Image="siparis.png" />
+            <Button x:Name="Youtube" Grid.Row="2" Grid.Column="2"  Clicked="Youtube_Clicked" Style="{StaticResource buttonStyle2}" Image="anasayfayoutube.png"/>
+            <Button x:Name="fiyatlist"  Grid.Row="3" Grid.Column="2" Style="{StaticResource buttonStyle2}" Clicked="fiyatlist_Clicked" Image="fiyatlistesi.png"/>
+            <Button x:Name="Galeri" Grid.Row="3" Grid.Column="1" Clicked="Galeri_Clicked" Style="{StaticResource buttonStyle2}" Image="galeri.png"/>
+            <Button x:Name="İletisim"  Grid.Row="4" Grid.Column="1" Clicked="İletisim_Clicked" Style="{StaticResource buttonStyle2}" Image="iletisim.png"/>
+            <Button x:Name="hakkımızda" Grid.Row="4" Grid.Column="2"  Style="{StaticResource buttonStyle2}" Clicked="hakkımızda_Clicked" Image="hakkimizda.png"/>
+            <Button x:Name="Servis" Grid.Row="5" Grid.Column="1"  Style="{StaticResource buttonStyle2}" Clicked="Servis_Clicked" Image="hizmetlerimiz.png"/>
+            <Button x:Name="Yorumlar" Grid.Row="5" Grid.Column="2"  Style="{StaticResource buttonStyle2}" Clicked="Yorumlar_Clicked" Image="yorumlar.png"/>
 
 
 
