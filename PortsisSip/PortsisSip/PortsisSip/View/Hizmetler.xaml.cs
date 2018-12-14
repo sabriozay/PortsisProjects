@@ -22,9 +22,8 @@ namespace PortsisSip.View
            
            InitializeComponent();
           
-           
-          
-           
+
+
         }
     }
 }

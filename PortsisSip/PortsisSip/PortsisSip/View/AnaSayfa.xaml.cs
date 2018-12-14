@@ -72,23 +72,23 @@ namespace PortsisSip.View
         
         private async void Galeri_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new View.Galeri());
+            await Navigation.PushAsync(new View.Galeri());
         }
 
         private async void İletisim_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new View.Iletisim());
+            await Navigation.PushAsync(new View.Iletisim());
 
         }
 
         private async void fiyatlist_Clicked(object sender, EventArgs e)
         {
-          await  Navigation.PushModalAsync(new View.FiyatListesi());
+          await  Navigation.PushAsync(new View.FiyatListesi());
         }
 
         private async void hakkımızda_Clicked(object sender, EventArgs e)
         {
-          await  Navigation.PushModalAsync(new View.Hakkimizda());
+          await  Navigation.PushAsync(new View.Hakkimizda());
         }
 
         private void Youtube_Clicked(object sender, EventArgs e)
@@ -98,7 +98,7 @@ namespace PortsisSip.View
 
         private async void Servis_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new View.Hizmetler());
+            await Navigation.PushAsync(new View.Hizmetler());
         }
 
         private void Yorumlar_Clicked(object sender, EventArgs e)

@@ -372,7 +372,3 @@ C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.An
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Release\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Release\MonoAndroid81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Release\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\bin\Release\ReyelHaliYikama.dll
-C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Release\MonoAndroid81\linksrc\ReyelHaliYikama.dll.mdb
-C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Release\MonoAndroid81\linksrc\Plugin.Messaging.dll.mdb
-C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip.Android\obj\Release\MonoAndroid81\linksrc\Plugin.Share.dll.mdb

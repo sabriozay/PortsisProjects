@@ -2,8 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PortsisSip.View.FiyatListesi" BackgroundImage="BACK.png" >
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    Android="0,0,0,0"
+                    iOS="0,20,0,0" />
+    </ContentPage.Padding>
     <ContentPage.Content>
-        <WebView Source="http://www.reyelhaliyikama.com/fiyat-listesi"></WebView>
+        
+            <WebView Source="http://www.reyelhaliyikama.com/fiyat-listesi"></WebView>
      <!--   <StackLayout>
             <ListView x:Name="myList" >
                 <ListView.ItemTemplate>
