@@ -15,5 +15,5 @@ C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\ob
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Release\netstandard2.0\XamlC.stamp
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Release\netstandard2.0\PortsisSip.dll
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Release\netstandard2.0\PortsisSip.pdb
-C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Release\netstandard2.0\PortsisSip.csprojAssemblyReference.cache
 C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Release\netstandard2.0\View\Hizmetler.xaml.g.cs
+C:\Users\PC\Documents\GitHub\PortsisProjects\PortsisSip\PortsisSip\PortsisSip\obj\Release\netstandard2.0\PortsisSip.csprojAssemblyReference.cache
